@@ -74,21 +74,14 @@ const services = [
     title: "Plomberie",
     description: "Installation, réparation, mise aux normes",
     icon: Droplets,
-    image: null,
+    image: IMAGES.plumbing,
     span: "",
   },
   {
     title: "Électricité",
     description: "Rénovation électrique, mise en conformité",
     icon: Zap,
-    image: null,
-    span: "",
-  },
-  {
-    title: "Tous Corps d'État",
-    description: "Coordination complète de vos travaux",
-    icon: Wrench,
-    image: null,
+    image: IMAGES.electricity,
     span: "",
   },
 ];
