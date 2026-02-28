@@ -1,0 +1,177 @@
+{
+  "brand_identity": {
+    "name": "MHServices",
+    "core_values": [
+      "Expertise",
+      "Modernity",
+      "Transparency",
+      "Efficiency"
+    ],
+    "tone": "Professional, Warm, Direct, High-End Construction",
+    "archetype": "Industrial Elegance"
+  },
+  "design_system": {
+    "colors": {
+      "primary": {
+        "name": "Safety Amber",
+        "hex": "#FBBF24",
+        "tailwind": "amber-400",
+        "usage": "CTAs, Highlights, Icons, Decorative blobs"
+      },
+      "secondary": {
+        "name": "Anthracite",
+        "hex": "#1A1A1A",
+        "tailwind": "neutral-900",
+        "usage": "Headings, Strong contrast elements, Footer bg"
+      },
+      "background": {
+        "name": "Clean White",
+        "hex": "#FFFFFF",
+        "tailwind": "white",
+        "usage": "Main backgrounds"
+      },
+      "surface": {
+        "name": "Off-White",
+        "hex": "#FAFAFA",
+        "tailwind": "neutral-50",
+        "usage": "Secondary sections (Process, Reviews)"
+      },
+      "text": {
+        "primary": "#171717",
+        "secondary": "#525252",
+        "muted": "#A3A3A3"
+      }
+    },
+    "typography": {
+      "font_family": {
+        "headings": "Barlow Condensed, sans-serif",
+        "body": "Manrope, sans-serif"
+      },
+      "scale": {
+        "h1": "text-5xl md:text-7xl font-bold tracking-tight uppercase",
+        "h2": "text-3xl md:text-5xl font-bold uppercase",
+        "h3": "text-xl md:text-2xl font-semibold",
+        "body": "text-base md:text-lg leading-relaxed",
+        "label": "text-sm font-bold tracking-widest uppercase text-amber-500"
+      }
+    },
+    "spacing": {
+      "container": "container mx-auto px-4 md:px-6",
+      "section_padding": "py-20 md:py-32",
+      "element_gap": "gap-6 md:gap-12"
+    },
+    "effects": {
+      "shadows": "shadow-[0_8px_30px_rgb(0,0,0,0.04)]",
+      "glass": "backdrop-blur-md bg-white/80 border-b border-white/20",
+      "radius": "rounded-2xl"
+    }
+  },
+  "components_strategy": {
+    "header": {
+      "type": "Sticky Glass",
+      "layout": "Flexbox: Logo (Left) - Nav (Center/Hidden Mobile) - CTA (Right)",
+      "cta_style": "Button: Solid Primary, Black Text, Sharp or Pill",
+      "mobile_behavior": "Hamburger menu for nav links, but Phone CTA is always visible via FAB"
+    },
+    "hero": {
+      "type": "Immersive Parallax",
+      "background_image": "https://customer-assets.emergentagent.com/job_d635add8-2181-414e-96ff-1bcdf67a824c/artifacts/37mmxhoh_image.png",
+      "overlay": "Gradient: Black/60 to Transparent (Bottom-Left to Top-Right)",
+      "content": {
+        "title": "Rénovation d'Exception en Île-de-France",
+        "subtitle": "Transformez votre espace de vie avec l'expertise MHServices. Qualité, Rapidité, Garantie.",
+        "cta": "Appeler maintenant"
+      }
+    },
+    "trust_banner": {
+      "style": "Floating Card or Strip",
+      "items": [
+        {"icon": "CheckCircle", "text": "Devis Gratuit"},
+        {"icon": "Clock", "text": "Intervention Rapide"},
+        {"icon": "ShieldCheck", "text": "Garantie Décennale"},
+        {"icon": "HardHat", "text": "Artisans Qualifiés"}
+      ]
+    },
+    "services": {
+      "layout": "Bento Grid (Asymmetrical)",
+      "cards": [
+        {"title": "Rénovation Intérieure", "desc": "Cuisine, SDB, Isolation", "span": "col-span-1 md:col-span-2", "image_ref": "kitchen"},
+        {"title": "Peinture & Déco", "desc": "Finitions soignées", "span": "col-span-1", "image_ref": "painting"},
+        {"title": "Gros Œuvre & Façade", "desc": "Maçonnerie, Extérieur", "span": "col-span-1", "image_ref": "facade"}
+      ]
+    },
+    "gallery": {
+      "type": "Masonry with Lightbox",
+      "feature": "Before/After Slider Component for key images",
+      "interaction": "Hover zoom effect on images"
+    },
+    "process": {
+      "style": "Vertical Steps with connecting line",
+      "steps": ["Prise de contact", "Visite & Devis", "Travaux", "Livraison"]
+    },
+    "reviews": {
+      "style": "Minimalist Badge",
+      "content": "30+ Clients Satisfaits en Île-de-France",
+      "visual": "Star rating icon (5/5)"
+    },
+    "contact": {
+      "style": "Split Section: Info Left / Visual Right",
+      "cta_primary": "Gros bouton numéro de téléphone",
+      "details": ["Lundi - Samedi", "08:00 - 19:00", "Paris & IDF"]
+    },
+    "fab": {
+      "type": "Fixed Bottom Right (Mobile Only)",
+      "icon": "Phone",
+      "action": "tel:+33784637670",
+      "style": "Circular, pulsing shadow, Primary Color"
+    }
+  },
+  "assets_mapping": {
+    "images": {
+      "hero_bg": "https://customer-assets.emergentagent.com/job_d635add8-2181-414e-96ff-1bcdf67a824c/artifacts/37mmxhoh_image.png",
+      "gallery_kitchen_before_after": "https://customer-assets.emergentagent.com/job_d635add8-2181-414e-96ff-1bcdf67a824c/artifacts/fynz01h3_image.png",
+      "gallery_hallway_before_after": "https://customer-assets.emergentagent.com/job_d635add8-2181-414e-96ff-1bcdf67a824c/artifacts/wn4gaup5_image.png",
+      "gallery_room_before_after": "https://customer-assets.emergentagent.com/job_d635add8-2181-414e-96ff-1bcdf67a824c/artifacts/6yss0caj_image.png",
+      "service_painting": "https://customer-assets.emergentagent.com/job_d635add8-2181-414e-96ff-1bcdf67a824c/artifacts/89pgg04u_image.png"
+    }
+  },
+  "technical_implementation": {
+    "framework": "React",
+    "styling": "Tailwind CSS",
+    "icons": "Lucide React",
+    "motion": "Framer Motion (AnimatePresence, motion.div)",
+    "ui_lib": "Shadcn UI (Button, Card, Sheet, Dialog/Carousel)",
+    "fonts_import": "Import Barlow Condensed and Manrope from Google Fonts in index.css"
+  },
+  "anti_ai_rules": [
+    "Do NOT use 'Inter' font. Use 'Manrope' and 'Barlow Condensed'.",
+    "Do NOT make the hero section text centered. Align it Left with a strong vertical axis.",
+    "Do NOT use generic blue for construction. Use the specified Amber/Yellow.",
+    "Ensure the 'Before/After' slider is interactive, not just two images side by side.",
+    "Use generous whitespace (py-24 or py-32) between sections."
+  ],
+  "universal_guidelines": {
+    "general": [
+      "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients",
+      "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+      "Create depth through layered design elements with z-index hierarchy",
+      "Use glass-morphism effects with backdrop filters (12-24px blur)",
+      "You MUST NOT apply universal transition. Eg: transition: all. This results in breaking transforms. Always add transitions for specific interactive elements like button, input excluding transforms",
+      "You MUST NOT center align the app container, ie do not add .App { text-align: center; } in the css file. This disrupts the human natural reading flow of text",
+      "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style",
+      "NEVER: use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯 etc for icons."
+    ],
+    "component_reuse": [
+      "Prioritize using pre-existing components from src/components/ui when applicable",
+      "Create new components that match the style and conventions of existing components when needed"
+    ],
+    "export_conventions": [
+      "Components MUST use named exports (export const ComponentName = ...)",
+      "Pages MUST use default exports (export default function PageName() {...})"
+    ],
+    "toasts": [
+      "Use 'sonner' for toasts",
+      "Sonner component are located in /app/src/components/ui/sonner.tsx"
+    ]
+  }
+}
