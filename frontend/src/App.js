@@ -35,6 +35,8 @@ const IMAGES = {
   hallway: "https://customer-assets.emergentagent.com/job_d635add8-2181-414e-96ff-1bcdf67a824c/artifacts/wn4gaup5_image.png",
   room: "https://customer-assets.emergentagent.com/job_d635add8-2181-414e-96ff-1bcdf67a824c/artifacts/6yss0caj_image.png",
   painting: "https://customer-assets.emergentagent.com/job_d635add8-2181-414e-96ff-1bcdf67a824c/artifacts/89pgg04u_image.png",
+  plumbing: "https://customer-assets.emergentagent.com/job_reno-premium/artifacts/h573ekhq_image.png",
+  electricity: "https://customer-assets.emergentagent.com/job_reno-premium/artifacts/ml2gensv_image.png",
 };
 
 // Trust Items
