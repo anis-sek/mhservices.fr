@@ -16,7 +16,6 @@ import {
   ArrowRight,
   Paintbrush,
   Home,
-  Wrench,
   Droplets,
   Zap,
   Building2
